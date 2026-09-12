@@ -9,11 +9,11 @@
 
 <body>
 
-    <h1 id="topoInicial">TechEvent Summit</h1>
+    <h1 id="topo">TechEvent Summit</h1>
     <p>
         <a href="#sobre">Sobre o Evento</a> |
         <a href="#programacao">Programação</a> |
-        <a href="#expsitores">Expositores</a> |
+        <a href="#expositores">Expositores</a> |
         <a href="#inscricao">Inscrição</a> |
         <a href="#rodape">Rodapé</a>
     </p>
@@ -40,14 +40,14 @@
 
         <br>
         Ao participar, você terá a oportunidade de <u>ampliar seus conhecimentos, conhecer novas ferramentas<br>
-            e tecnologias, trocar experiências com outros participantes e construir conexões que podem contribuir
-            para<br>
-            suatrajetória acadêmica e profissional.</u><br>
+            e tecnologias, trocar experiências com outros participantes em um ambiente com emissão neutra de CO<sub>2</sub>, <br>
+            e construir conexões que podem contribuir para sua trajetória acadêmica e profissional.</u><br>
 
         <br>
         <strong>Venha fazer parte dessa experiência e descobrir novas possibilidades através da programação!</strong>
         <br>
-        <sup>10ª Edição</sup>
+
+        <sup>10ª&nbsp;Edição</sup>
     </p>
 
     <h2>Benefícios Inclusos</h2>
@@ -61,7 +61,7 @@
 
     <hr>
 
-    <h2 id="programacao">Benefícios Inclusos</h2>
+    <h2 id="programacao">Cronograma de Abertura</h2>
     <ol type="I">
         <li>08:00 – 09:30 Credenciamento e recepção dos participantes</li>
         <li>09:30 – 10:00 Cerimônia de abertura e apresentação da 10ª edição</li>
@@ -70,7 +70,7 @@
         <li>14:00 – 17:00 Palestra: Inteligência Artificial e o Desenvolvimento de Software</li>
     </ol>
 
-    <h2>Continuação do WorkShop</h2>
+    <h3>Continuação do WorkShop</h3>
     <ol type="A" start="3">
         <li>Desenvolvimento da estrutura inicial do projeto</li>
         <li>Implementação das funcionalidades principais</li>
@@ -92,12 +92,10 @@
         <tbody>
             <tr>
                 <td>08:00 – 10:00</td>
-                <!-- Uso de colspan para a palestra magna -->
                 <td colspan="3" style="text-align: center;">Palestra Magna (Keynote): O Futuro do Desenvolvimento</td>
             </tr>
             <tr>
                 <td>10:30 – 12:30</td>
-                <!-- Uso de rowspan para o minicurso estendido -->
                 <td rowspan="2">Minicurso: Acessibilidade Web na Prática</td>
                 <td>Palestra: UX/UI Design</td>
                 <td>Estande: Demonstração de Ferramentas</td>
@@ -120,23 +118,122 @@
 
     <h2>Conheça nosso Palestrante Principal</h2>
     <figure>
-        <img src="./../midias/linus-torvalds.jpg" alt="Foto de um homem sorrindo, o palestrante principal do evento"
+        <img src="./midia/linus-torvalds.jpg" alt="Foto de um homem sorrindo, o palestrante principal do evento"
             width="300">
-        <figcaption>João Silva - Especialista em Desenvolvimento Web e Acessibilidade</figcaption>
+        <figcaption>Engenheiro de software e Mestre em Ciência da Computação, Linus Torvalds<br>
+            desenvolveu o Linux e o Git, softwares open source usados diariamente em todo o mundo</figcaption>
     </figure>
 
     <h2>Trailer Oficial do TechEvent Summit</h2>
     <video width="640" height="360" controls>
-        <source src="" type="video/mp4">
+        <source src="./midia/man-explaining-programming-code-projection-180838-720.mp4" type="video/mp4">
         Seu navegador não suporta a tag de vídeo.
     </video>
 
+    <hr>
+
+    <h1 id="inscricao">Inscrição para o TechEvent Summit</h1>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Formulário Avançado de Credenciamento</legend>
+
+            <p>
+                <label for="txtNome">Nome Completo:</label><br>
+                <input type="text" id="txtNome" name="txtNome" required autofocus minlength="3" maxlength="60"
+                    placeholder="Ex: Adrian Souza Teixeira">
+            </p>
+            <p>
+                <label for="txtSenha">Senha de Acesso ao Portal:</label><br>
+                <input type="password" id="txtSenha" name="txtSenha" required minlength="8">
+            </p>
+
+            <p>
+                <label>Grupos de interesse:</label><br>
+                <input type="checkbox" id="intWeb" name="interesse" value="Web">
+                <label for="intWeb">Desenvolvimento Web</label><br>
+
+                <input type="checkbox" id="intIA" name="interesse" value="IA">
+                <label for="intIA">Inteligência Artificial</label><br>
+
+                <input type="checkbox" id="intMobile" name="interesse" value="Mobile">
+                <label for="intMobile">Mobile</label>
+            </p>
+
+            <p>
+                <label>Tipo de Ingresso:</label><br>
+                <input type="radio" id="ingEstudante" name="ingresso" value="Estudante" checked>
+                <label for="ingEstudante">Estudante (Meia-entrada)</label><br>
+
+                <input type="radio" id="ingProfissional" name="ingresso" value="Profissional">
+                <label for="ingProfissional">Profissional</label><br>
+
+                <input type="radio" id="ingVIP" name="ingresso" value="VIP">
+                <label for="ingVIP">VIP</label>
+            </p>
+
+            <p>
+                <label for="cboPais">País de Origem:</label><br>
+                <select id="cboPais" name="cboPais">
+                    <option value="BR" selected>Brasil</option>
+                    <option value="US">Estados Unidos</option>
+                    <option value="AR">Argentina</option>
+                    <option value="PT">Portugal</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="cboWorkshops">Workshops de Interesse (Segure CTRL para selecionar vários):</label><br>
+                <select id="cboWorkshops" name="cboWorkshops" multiple size="4">
+                    <option value="W1">Estrutura de Projetos</option>
+                    <option value="W2">Acessibilidade Web</option>
+                    <option value="W3">Clean Code</option>
+                    <option value="W4">Testes e Correções</option>
+                    <option value="W5">UX/UI Design</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="dataChegada">Data de Chegada ao Evento:</label><br>
+                <input type="date" id="dataChegada" name="dataChegada" min="2026-10-15" max="2026-10-17">
+            </p>
+
+            <p>
+                <label for="horaMentoria">Horário de Mentoria Desejado:</label><br>
+                <input type="time" id="horaMentoria" name="horaMentoria">
+            </p>
+
+            <p>
+                <label for="numAcompanhantes">Quantidade de Acompanhantes (Máximo 5):</label><br>
+                <input type="number" id="numAcompanhantes" name="numAcompanhantes" min="0" max="5" step="1">
+            </p>
+
+            <p>
+                <label for="nivelExp">Nível de Experiência em Programação (0 a 100):</label><br>
+                <input type="range" id="nivelExp" name="nivelExp" min="0" max="100" step="10">
+            </p>
+
+            <p>
+                <label for="fileComprovante">Envio de Comprovante de Meia-entrada:</label><br>
+                <input type="file" id="fileComprovante" name="fileComprovante">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar Inscrição">
+                <input type="reset" value="Limpar Campos">
+                <input type="button" value="Verificar Disponibilidade">
+            </p>
+
+        </fieldset>
+    </form>
+
+    <hr>
+
     <footer id="rodape">
-        <h3>Rodapé</h3>
-        <p>Aqui é o RODAPÉ da página</p>
+        <p>Aqui é o rodapé da página</p>
     </footer>
 
-    <a href="#topoInicial">
+    <a href="#topo">
         <p>Clique Aqui para voltar ao Inicio</p>
     </a>
 
