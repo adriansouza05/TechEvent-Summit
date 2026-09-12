@@ -21,6 +21,3 @@ Como o projeto utiliza apenas HTML estático, não é necessária nenhuma instal
 1. Faça o clone deste repositório ou baixe o arquivo `.zip`.
 2. Extraia os arquivos em seu computador.
 3. Dê um duplo clique no arquivo `trabalho1-desenvWeb.html` para abri-lo diretamente no seu navegador (Chrome, Firefox, Edge, etc.).
-
----
-*Desenvolvido durante as aulas de Desenvolvimento Web.*
