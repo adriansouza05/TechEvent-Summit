@@ -1,5 +1,7 @@
 # TechEvent Summit
 
+# Trabalho feito por: Adrian Teixeira & Heitor Lopes.
+
 ## Sobre o Projeto
 Este é um portal institucional desenvolvido em HTML5 para um evento de tecnologia. O projeto foi criado como parte do Trabalho Prático (T1) da disciplina de Desenvolvimento Web, com o objetivo de consolidar os conceitos iniciais e avançados de marcação web. 
 
@@ -21,5 +23,3 @@ Como o projeto utiliza apenas HTML estático, não é necessária nenhuma instal
 1. Faça o clone deste repositório ou baixe o arquivo `.zip`.
 2. Extraia os arquivos em seu computador.
 3. Dê um duplo clique no arquivo `trabalho1-desenvWeb.html` para abri-lo diretamente no seu navegador (Chrome, Firefox, Edge, etc.).
-
-Trabalho feito por: Adrian Teixeira & Heitor Lopes.
